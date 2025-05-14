@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #041c2c; 
+    color: rgb(28, 104, 107);
+    min-height: 100vh;
+    position: relative;
+  }
+  
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    margin-left: auto;      
+    margin-right: 50px;     
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+    box-shadow: 0 0 20px #6cd4ff33;
+    backdrop-filter: blur(30px);
+    color: #1694e9;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.about:hover {
+    transform: scale(1.03);
+}
+
+ }
+ .features{
+    margin-left: auto;      
+    margin-right: 50px;     
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+    box-shadow: 0 0 20px #6cd4ff33;
+    backdrop-filter: blur(30px);
+    color: #1694e9;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.features:hover {
+    transform: scale(1.03);
+}
+
+ .cat-box {
+  width: 90%;
+  max-width: 600px;
+  height: 400px;
+  margin: 70px auto;
+  border: 6px double #6cd4ff;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #6cd4ff33;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(30px);
+  transition: transform 0.3s ease;
+}
+
+.cat-box:hover {
+  transform: scale(1.03);
+}
+
+.cat-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  pointer-events: auto;
+}
+
+
+  .marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height:80px;
+    line-height: 80px;
+    font-size:2rem;
+    color:#025e64;
+    }
+    .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+    }
+    .marquee1 {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    height: 60px;
+    font-size:1rem;
+    color:#02c4b3;
+    }
+   
+    .marquee1 span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 8s linear infinite;
+    }
+    .marquee2 span {
+    animation-delay: 2.5s;
+    }
+    @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+    }
+  
+   
